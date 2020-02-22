@@ -50,7 +50,7 @@ namespace RevealLab.DataSources
                 return excelItem;
             }
 
-            return null;
+            return dataSourceItem;
         }
     }
 }
