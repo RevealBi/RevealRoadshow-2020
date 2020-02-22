@@ -1,10 +1,11 @@
 ﻿# Loading Dashboards
 In this hand-on-lab, we will create a new WPF application and use the `Reveal SDK` to embed a **Marketing** dashboard.
 
-The Assets for this walk through can be found here:
-https://github.com/RevealBi/RevealRoadshow-2020/tree/master/HandsOnLab/Assets
+Helpful links:
 
-The
+* [Assets](https://github.com/RevealBi/RevealRoadshow-2020/tree/master/HandsOnLab/Assets)
+* [Loading Dashboards - Before](https://github.com/RevealBi/RevealRoadshow-2020/tree/master/HandsOnLab/Samples/Samples-Before/01-LoadDashboard)
+* [Loading Dashboards - Completed](https://github.com/RevealBi/RevealRoadshow-2020/tree/master/HandsOnLab/Samples/Samples-After/01-LoadDashboard)
 
 ### 1. Create Project
 Using Visual Studio 2019, use the "Create a new Project" dialog to search for the WPF App project template. Be sure to select the **WPF App (.NET Framework)** option and click the `Next` button.
