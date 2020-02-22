@@ -100,7 +100,7 @@ private void MainWindow_Loaded(object sender, RoutedEventArgs e)
     
 }
 ```
-The first step is to get the path of the `Marketing.rdash` file we want to load into the `RevealView`. To do this, we simply create a variable named `marketingDashboardPath` to hold the location. We get the location by combining the path of the current directory, and the folder location of th `Marketing.rdash` file.  Your code should look like the following:
+The first step is to get the path of the `Marketing.rdash` file we want to load into the `RevealView`. To do this, we simply create a variable named `marketingDashboardPath` to hold the location. We get the location by combining the path of the current directory, and the folder location of the `Marketing.rdash` file.  Your code should look like the following:
 
 ```csharp
 private void MainWindow_Loaded(object sender, RoutedEventArgs e)
