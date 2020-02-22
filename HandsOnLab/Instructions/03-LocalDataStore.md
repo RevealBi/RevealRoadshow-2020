@@ -1,5 +1,14 @@
 ﻿# Using a Local Data Source
 
+Before the **Reveal SDK** loads and processes the data for a dashboard, you can override the configuration or data to be used for each visualization of the dashboard.
+
+Here are a few common use cases:
+* You can change the name of the database being used, depending on the current user, or any other attributes your app might get like userId, division, company, customer, etc.
+* You can change the name of the table being used or the path of a file to load.
+* You can replace a data source with an in-memory data source. 
+
+In this walk-through, we will replace the web-based data sources of all dashboard visualizations with a local Excel file called `Samples.xlsx`.
+
 This walk-through builds on the previous ["Dashboard Linking"](https://github.com/RevealBi/RevealRoadshow-2020/blob/master/HandsOnLab/Instructions/02-DashboardLinking.md) exercise.
 
 ### 1. Add a Data Source
