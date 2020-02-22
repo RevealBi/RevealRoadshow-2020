@@ -17,7 +17,7 @@ namespace RevealLab
         }
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
-        {            
+        {
             var marketingDashboardPath = Path.Combine(Environment.CurrentDirectory, "Dashboards/Marketing.rdash");
 
             RVDashboard dashboard = null;
